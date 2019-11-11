@@ -24,7 +24,7 @@ var firebaseConfig =
      usersRef.set("paid");
 
 
-     await contractCall('makePayment',[],1000000000000000000);
+     await contractCall('makePayment',[],5000000000000000000);
      window.location.href="MainPage.html";
  })
 
